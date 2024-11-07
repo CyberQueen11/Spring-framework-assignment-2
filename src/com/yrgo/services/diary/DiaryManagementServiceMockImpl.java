@@ -12,8 +12,7 @@ public class DiaryManagementServiceMockImpl implements DiaryManagementService {
 
 	@Override
 	public void recordAction(Action action) {
-		// TODO Auto-generated method stub
-
+		allActions.add(action);
 	}
 
 	//Hint: 
